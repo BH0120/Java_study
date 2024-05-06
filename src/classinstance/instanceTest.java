@@ -5,8 +5,10 @@ package classinstance;
  */
 
 class C1 {
+
     static int static_variable = 1;
     int instance_variable = 2;
+
     static void static_static() {
         System.out.println(static_variable);
     }

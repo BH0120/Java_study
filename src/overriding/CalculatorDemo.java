@@ -56,7 +56,6 @@ public class CalculatorDemo {
         *
         * 하위 클래스에서 return super.상위메서드();를 사용하면
         * 중복 로직을 방지하며 같은 구문을 실행할 수 있다.
-        *
         * */
 
     }

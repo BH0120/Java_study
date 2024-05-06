@@ -14,6 +14,13 @@ class Calculator{
         this.right=right;
     }
 
+    public void setOperands(int left, int right, String middle){
+        System.out.println("setOperands(left, right)");
+        this.left=left;
+        this.right=right;
+    }
+
+
     // ① 해당 메서드는 바로 위에 존재하는 setOperands(left,right)와 left,right 부분이 중복된다.
 //    public void setOperands(int left,int middle,int right){
 //        System.out.println("setOperands(left, middle, right)");
@@ -31,6 +38,18 @@ class Calculator{
         this.middle=middle;
     }
 
+    public void sumTest(int a, int b){
+        System.out.println(a + b);
+    }
+    public void sumTest(float a, float b){
+        System.out.println(a + b);
+    }
+    public void sumTest(double a, int b){
+        System.out.println(a + b);
+    }
+    public void sumTest(String a, String b, String c){
+        System.out.println(a + b + c);
+    }
 
 
     public void sum() {
